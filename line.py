@@ -1,8 +1,8 @@
 def line():
-    CoA = float (input ("Ingrese el coeficiente A: 2.3"))
-    CoB = float (input ("Ingrese el coeficiente B: -4"))
-    CoX1 = float (input ("Ingrese el coeficiente X1: 50"))
-    CoX2 = float (input ("Ingrese el coeficiente X2: -32.9"))
+    CoA = float (input ("Ingrese el coeficiente A: "))
+    CoB = float (input ("Ingrese el coeficiente B: "))
+    CoX1 = float (input ("Ingrese el coeficiente X1: "))
+    CoX2 = float (input ("Ingrese el coeficiente X2: "))
     Y1 = CoA * CoX1 + CoB
     Y2 = CoA * CoX2 + CoB 
     Distancia = ((CoX2 - CoX1)**2 + (Y2 - Y1)**2)**0.5
@@ -14,12 +14,12 @@ def line():
 
     print ("")
 
-    print (f"Para la siguiente ecuación:")
+    print ("Para la siguiente ecuación:")
     print (f"\tY = {CoA}X + {CoB}")
 
     print ("")
 
-    print (f"Dados los siguientes puntos:")
+    print ("Dados los siguientes puntos:")
     print (f"\tP1 ({CoX1}, {Y1})")
     print (f"\tP2 ({CoX2}, {Y2})")
 	
