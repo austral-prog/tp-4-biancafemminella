@@ -1,4 +1,3 @@
-Ejercicio 1: 
 def line():
     CoA = float (input ("Ingrese el coeficiente A:"))
     CoB = float (input ("Ingrese el coeficiente B:"))
@@ -15,12 +14,12 @@ def line():
 
     print ("")
 
-    print ("Para la siguiente ecuación:")
+    print (f"Para la siguiente ecuación:")
     print (f"\tY = {CoA}X + {CoB}")
 
     print ("")
 
-    print ("Dados los siguientes puntos:")
+    print (f"Dados los siguientes puntos:")
     print (f"\tP1 ({CoX1}, {Y1})")
     print (f"\tP2 ({CoX2}, {Y2})")
 	
