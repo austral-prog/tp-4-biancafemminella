@@ -22,5 +22,3 @@ def line(CoA, CoB, CoX1, CoX2):
     print ()
 
     print (f"La distancia entre ellos es: {Distancia}")
-
-line()
